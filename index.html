@@ -1,84 +1,87 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Currículum Vitae</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<link rel="stylesheet" href="stylesheets/style.css">
+    <title>Currículum Vitae</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+    <meta name="author" content="Diego Contreras" />
+    <meta name="keywords" content="Curriculum, Busqueda, Proyectos, HTML, CSS, PYTHON, JAVA, C, JAVASCRIPT" />
+    <meta name="description" content="Solo un proyecto de la Universidad en el cual realizado un Curriculum" />
+
 </head>
 <body>
-<header>
-    <h1>Currículum Vitae</h1>
-</header>
-<nav>
-    <ul>
-    <li><a href="#">Inicio</a></li>
-    <li><a href="#">Educación</a></li>
-    <li><a href="#">Experiencia</a></li>
-    <li><a href="#">Habilidades</a></li>
-    <li><a href="#">Contacto</a></li>
-    </ul>
-</nav>
-<section>
-<section id="informacion-personal">
-    <h2>Información personal</h2>
-    <p>Nombre: <span>Diego Contreras</span></p>
-    <p>Correo electrónico: <span>deltacharlie2003@gmail.com</span></p>
-</section>
-<section>
-    <section id="Educación">
-    <h2>Educación</h2>
-    <p>Ingenieria en Computacion</p>
-</section>
-<section id="experiencia">
-<h2>Experiencia</p></h2>
-<p> Cargo: <span>Desarrollador de software</span></p>
-<p>Empresa: <span>Google</span></p>
-<p>Fechas: <span>2023 - Presente</span></p>
-<p>
-Descripción:
-<ul>
-<li>Desarrollo de aplicaciones web</li>
-<li>Mantenimiento de sistemas</li>
-<li>Trabajo en equipo</li>
-</ul>
-</p>
-</section>
-<section id="habilidades">
-<h2>Habilidades</h2>
-<ul>
-<li>Lenguajes de programación: Python, JavaScript, Java, C</li>
-<li>Bases de datos: MySQL, PostgreSQL</li>
-<li>Herramientas de desarrollo: Visual Studio Code, Git,</li>
-<li>Otros: Inglés</li>
-</ul>
-</section>
-<section>
-<section id="Proyectos Realizados">
-<h2>Proyectos Realizados</h2>
-<p>Esta section habla sobre algunos proyectos que he realizado.</p>
-<img src="https://placehold.co/600x400" alt="">
-<figcaption>Esa vez que trabaje en Padre de Familia</figcaption>
-<div class="embed-responsive embed-responsive-16by9">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/YAgJ9XugGBo?si=9OtPIbpnY0x5oh8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-<figcaption>Buenas</figcaption>
-</section>
-<section>
-    <section id="Mensajeria">
-    <h2>Mensajeria</h2>
-    <p>Si desea dejar informacion o datos sobre proyectos en los cuales me quisiera
-    contratar para ayudar, puede llenar el siguiente formulario.</p>
-    <form action method="get" id="formulario">
-        <label>Nombres:</label>
-        <input id="Nombres" type="Text" name="Nombres" required="required">
-        <label>Apellidos:</label>
-        <input id="Apellidos" type="Text" name="Apellidos" required="required">
-        <label>Correo:</label>
-        <input id="Correo" type="email" name="correoelectronico" required="required">
-        <label for="Proyectos">Proyectos:</label> 
-        <input type="text" id="Proyectos" name="Proyectos" required="required" />
-    </form>
-</section>
+    <header>
+        <h1>Currículum Vitae</h1>
+           <nav>
+        <ul>
+            <li><a href="#Información-personal">Información-personal</a></li>
+            <li><a href="#Habilidades">Habilidades</a></li>
+            <li><a href="#Proyectos-Realizados">Proyectos Realizados</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+    </nav> 
+    </header>
+    <section>
+        <section id="Información-personal">
+            <h2>Información personal</h2>
+            <p>Nombre: <span>Diego Contreras</span></p>
+            <p>Correo electrónico: <span>deltacharlie2003@gmail.com</span></p>
+            <p>Educación: <span>Ingenieria en Computacion</span></p>
+            <!--PONER AQUI MAPA GOOGLE DE ESPOL MEJOR LUGAR OKAY. --> 
+        </section>
+    <section id="Habilidades">
+        <h2>Habilidades</h2>
+            <h3>Lenguajes de programación:</h3>
+            <ul>
+               <li>Python</li>
+               <li>JavaScript</li>
+               <li>Java</li>
+               <li>C</li>
+            </ul> 
+            <h3>Bases de datos:</h3>
+            <ul>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+            </ul>
+            <h3>Herramientas de desarrollo:</h3>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Git</li>
+                </ul>
+            <h3>Otros:</h3>
+            <ul>
+                <li>Inglés</li>
+            </ul>
+    </section>
+            <section>
+                <section id="Proyectos-Realizados">
+                    <h2>Proyectos Realizados</h2>
+                    <p>Esta section habla sobre algunos proyectos que he realizado.</p>
+                    <!-- PONER AQUI VIDEOS DE LOS PROYECTOS-->
+                    <img src="https://placehold.co/600x400" alt="">
+                    <figcaption>Proyecto sobre la realizacion de un Diccionario en Java</figcaption>
+                    <img src="https://placehold.co/600x400" alt="">
+                    <figcaption>Proyecto sobre la implementacion de Linked Lists en JAVAFX</figcaption>
+                    <img src="https://placehold.co/600x400" alt="">
+                    <figcaption>Diseño de Pagina Web HTML y CSS</figcaption>
+                </section>
+                <section id="Contacto">
+                    <section >
+                        <h2>Contacto</h2>
+                        <p>Si desea dejar informacion o datos sobre proyectos en los cuales me quisiera
+                            contratar, puede llenar el siguiente formulario.</p>
+                        <form action method="get" id="formulario">
+                            <label>Nombres:</label>
+                            <input id="Nombres" type="Text" name="Nombres" required="required">
+                            <label>Correo:</label>
+                            <input id="Correo" type="email" name="correoelectronico" required="required">
+                            <label for="Mensaje">Mensaje:</label>
+                            <input type="text" id="Mensaje" name="Mensaje" required="required" />
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </section>
 </body>
 </html>
