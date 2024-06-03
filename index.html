@@ -14,62 +14,70 @@
 </head>
 <body>
     <header>
+        <div id="Logo">
         <h1>Currículum Vitae</h1>
-           <nav>
+        </div>
+        <nav id="Navegacion">
         <ul>
-            <li><a href="#Información-personal">Información-personal</a></li>
-            <li><a href="#Habilidades">Habilidades</a></li>
-            <li><a href="#Proyectos-Realizados">Proyectos Realizados</a></li>
-            <li><a href="#Contacto">Contacto</a></li>
+            <lo><a href="#Información-personal">Información-personal</a></lo>
+            <lo><a href="#Habilidades">Habilidades</a></lo>
+            <lo><a href="#Proyectos-Realizados">Proyectos Realizados</a></lo>
+            <lo><a href="#Contacto">Contacto</a></lo>
         </ul>
-    </nav> 
+        </nav> 
     </header>
-    <section>
-        <section id="Información-personal">
+    <main>
+    <section id="Información-personal">
             <h2>Información personal</h2>
             <p>Nombre: <span>Diego Contreras</span></p>
             <p>Correo electrónico: <span>deltacharlie2003@gmail.com</span></p>
             <p>Educación: <span>Ingenieria en Computacion</span></p>
             <!--PONER AQUI MAPA GOOGLE DE ESPOL MEJOR LUGAR OKAY. --> 
-        </section>
+    </section>
     <section id="Habilidades">
         <h2>Habilidades</h2>
-            <h3>Lenguajes de programación:</h3>
-            <ul>
+            
+            <div id="ListaH">
+            <ul id="LP">
+                <h3>Lenguajes de programación:</h3>
                <li>Python</li>
                <li>JavaScript</li>
                <li>Java</li>
                <li>C</li>
             </ul> 
-            <h3>Bases de datos:</h3>
-            <ul>
+            
+            <ul id="BD">
+                <h3>Bases de datos:</h3>
                 <li>MySQL</li>
                 <li>PostgreSQL</li>
             </ul>
-            <h3>Herramientas de desarrollo:</h3>
-                <ul>
+           
+                <ul id="HD">
+                     <h3>Herramientas de desarrollo:</h3>
                     <li>Visual Studio Code</li>
-                    <li>Git</li>
                 </ul>
-            <h3>Otros:</h3>
-            <ul>
+            <ul id="OT">
+                <h3>Otros:</h3>
                 <li>Inglés</li>
             </ul>
+            </div>
     </section>
-            <section>
-                <section id="Proyectos-Realizados">
-                    <h2>Proyectos Realizados</h2>
-                    <p>Esta section habla sobre algunos proyectos que he realizado.</p>
-                    <!-- PONER AQUI VIDEOS DE LOS PROYECTOS-->
+    <section id="Proyectos-Realizados">
+
+            <div id="container">
+              <h2>Proyectos Realizados</h2>
+              <p>Esta section habla sobre algunos proyectos que he realizado.</p>  
+             <!-- PONER AQUI VIDEOS DE LOS PROYECTOS-->
                     <img src="https://placehold.co/600x400" alt="">
                     <figcaption>Proyecto sobre la realizacion de un Diccionario en Java</figcaption>
                     <img src="https://placehold.co/600x400" alt="">
                     <figcaption>Proyecto sobre la implementacion de Linked Lists en JAVAFX</figcaption>
                     <img src="https://placehold.co/600x400" alt="">
                     <figcaption>Diseño de Pagina Web HTML y CSS</figcaption>
-                </section>
-                <section id="Contacto">
-                    <section >
+            </div>
+
+    </section>
+    <section id="Contacto">
                         <h2>Contacto</h2>
                         <p>Si desea dejar informacion o datos sobre proyectos en los cuales me quisiera
                             contratar, puede llenar el siguiente formulario.</p>
@@ -82,6 +90,7 @@
                             <input type="text" id="Mensaje" name="Mensaje" required="required" />
                             <button type="submit">Enviar</button>
                         </form>
-                    </section>
+    </section>
+    </main>
 </body>
 </html>
