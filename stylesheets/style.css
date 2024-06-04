@@ -2,7 +2,8 @@
 
 *{
     font-family: "Roboto", sans-serif;
-    background-color: #fffffe;
+    background-color: #e3f6f5
+
 }
 
 html{
@@ -11,7 +12,10 @@ html{
 }
 
 header{
-    display: grid;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 main {
@@ -46,14 +50,54 @@ section{
     grid-column-end: 4; 
     grid-row-start: 1;
     grid-row-end: 1;
+    background-color: #fffffe;
 }
+
+#Información-personal h2{
+    background-color: #fffffe;
+    text-align: center;
+}
+
+#Información-personal p{
+    background-color: #fffffe;
+}
+
+#Información-personal span{
+    background-color: #fffffe;
+}
+
 #Contacto{
     grid-column-start: 4;
     grid-column-end: 7; 
     grid-row-start: 1;
-    grid-row-end: 1
+    grid-row-end: 1;
+    background-color: #fffffe;
     
 }
+
+#Contacto h2{
+    text-align: center;
+    background-color: #fffffe;
+}
+
+#Contacto p{
+    background-color: #fffffe;
+}
+
+#Contacto label{
+    background-color: #fffffe;
+}
+
+#Contacto input{
+    background-color: #fffffe;
+}
+#Contacto form{
+    background-color: #fffffe;
+}
+
+
+
+
 #Habilidades{
     grid-column-start: 1;
     grid-column-end: 7;
@@ -61,29 +105,61 @@ section{
     grid-row-end: 2;
 }
 
+#Habilidades h2{
+    text-align: center;
+}
+
 #ListaH{
+    margin-bottom: 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
+    margin-bottom: 2px;
+    padding-bottom: 10px;
 }
+
+
 
 #LP{
     grid-column-start: 1;
     grid-column-end:2;
+    border: 3px #272343 solid;
+}
+
+#LP li{
+    padding-bottom: 10px;
 }
 
 #BD{
     grid-column-start: 2;
     grid-column-end:3;
+    border: 3px #272343 solid;
+    border-radius: 5px;
+}
+
+#BD li{
+    padding-bottom: 10px;
 }
 
 #HD{
     grid-column-start: 3;
     grid-column-end:4;
+    border: 3px #272343 solid;
+    border-radius: 5px;
+}
+
+#HD li{
+    padding-bottom: 10px;
 }
 
 #OT{
     grid-column-start: 4;
     grid-column-end:5;
+    border: 3px #272343 solid;
+    border-radius: 5px;
+}
+
+#OT li{
+    padding-bottom: 10px;
 }
 
 #Proyectos-Realizados{
@@ -92,11 +168,33 @@ section{
     grid-row-start: 3;
     grid-row-end: 3;
     display: grid;
+    justify-content: center;
+    background-color: #fffffe;
 }
 
-#container{
-    
 
+
+#container{
+    text-align: center;
+    background-color: #fffffe;
+    
+}
+
+#container * {
+    background-color: #fffffe;
+}
+
+#final{
+    padding-top: 2.5%;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    background-color: #2d334a;
+}
+
+#final *{
+    color: #fffffe;
+    background-color: #2d334a;
 }
 
 h3{
@@ -121,7 +219,7 @@ p{
 }
 
 a{
-    color: #7f5af0;
+    color: #2d334a;
 }
 
 label{
@@ -143,5 +241,6 @@ figcaption{
 
 button{
     background-color: #ffd803;
-    color: #2d334a
+    color: #2d334a;
+    font-weight:  bold;
 }
