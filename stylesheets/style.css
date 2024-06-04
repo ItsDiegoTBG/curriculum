@@ -3,7 +3,6 @@
 *{
     font-family: "Roboto", sans-serif;
     background-color: #e3f6f5
-
 }
 
 html{
@@ -51,6 +50,8 @@ section{
     grid-row-start: 1;
     grid-row-end: 1;
     background-color: #fffffe;
+    display: grid;
+    justify-content: center;
 }
 
 #Información-personal h2{
@@ -64,6 +65,11 @@ section{
 
 #Información-personal span{
     background-color: #fffffe;
+}
+
+#Información-personal a{
+    background-color: #fffffe;
+    padding-top: 10px;
 }
 
 #Contacto{
@@ -94,8 +100,6 @@ section{
 #Contacto form{
     background-color: #fffffe;
 }
-
-
 
 
 #Habilidades{
@@ -197,20 +201,34 @@ section{
     background-color: #2d334a;
 }
 
+#formulario{
+    display: grid;
+    
+}
+
+#formulario input{
+    padding: 0.5em 2em;
+    border-radius: 100px;
+}
+
+#formulario button{
+    padding: 0.5em 2em;
+    border-radius: 100px;
+}
+
 h3{
-    font-family: 'Times New Roman', Times,serif;
     color: #272343;
 
 }
 
 h2{
-    font-family: 'Times New Roman', Times,serif;
+    
     color: #272343;
 
 }
 
 h1{
-    font-family: Georgia, serif;
+
     color: #272343;
 }
 
