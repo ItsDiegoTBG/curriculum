@@ -2,7 +2,7 @@
 
 *{
     font-family: "Roboto", sans-serif;
-    background-color: #e3f6f5
+    background-color: hsl(179, 41%, 76%)
 }
 
 html{
@@ -52,6 +52,12 @@ section{
     background-color: #fffffe;
     display: grid;
     justify-content: center;
+    grid-template-columns: auto;
+}
+
+#Photo{
+ justify-self: center;
+ border: 3px #272343 solid;
 }
 
 #Información-personal h2{
@@ -70,6 +76,7 @@ section{
 #Información-personal a{
     background-color: #fffffe;
     padding-top: 10px;
+    justify-self: center;
 }
 
 #Contacto{
