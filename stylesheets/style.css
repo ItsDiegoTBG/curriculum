@@ -2,7 +2,7 @@
 
 *{
     font-family: "Roboto", sans-serif;
-    background-color: hsl(179, 41%, 76%)
+    background-color : rgb(169, 219, 218)
 }
 
 html{
@@ -36,6 +36,25 @@ main {
 #Navegacion{
     grid-column-start: 4;
     grid-column-end: 7; 
+}
+#Navegacion lo{
+    padding: 0.5em 1em;
+    border-radius: 50px;
+    
+}
+#Navegacion a{
+    color: #fffffe;
+}
+
+#Navegacion lo:hover{
+    padding: 0.5em 1em;
+    border-radius: 50px;
+    background-color: #2d334a;
+}
+#Navegacion a:hover{
+  
+    background-color: #2d334a;
+    color: #fffffe;
 }
 
 section{  
@@ -130,28 +149,35 @@ section{
 
 
 
-#LP{
+
+#LLP{
     grid-column-start: 1;
     grid-column-end:2;
     border: 3px #272343 solid;
+}
+
+#LLP h3{
+    text-align: center;
 }
 
 #LP li{
     padding-bottom: 10px;
 }
 
-#BD{
+#LBD{
     grid-column-start: 2;
     grid-column-end:3;
     border: 3px #272343 solid;
     border-radius: 5px;
 }
 
+
+
 #BD li{
     padding-bottom: 10px;
 }
 
-#HD{
+#LHD{
     grid-column-start: 3;
     grid-column-end:4;
     border: 3px #272343 solid;
@@ -162,7 +188,7 @@ section{
     padding-bottom: 10px;
 }
 
-#OT{
+#LOT{
     grid-column-start: 4;
     grid-column-end:5;
     border: 3px #272343 solid;
@@ -183,7 +209,17 @@ section{
     background-color: #fffffe;
 }
 
+#Proyectos-Realizados img{
+    border: 3px #272343 solid; 
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
 
+#Proyectos-Realizados video{
+    border: 3px #272343 solid; 
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
 
 #container{
     text-align: center;
