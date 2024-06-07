@@ -59,7 +59,7 @@ main {
 
 section{  
     margin: 2px 1px 1.5px;
-    margin-top: 0.8rem;
+
     padding: 2% 1.2%;   
 }
 
@@ -72,6 +72,7 @@ section{
     display: grid;
     justify-content: center;
     grid-template-columns: auto;
+    border: 10px #6ec5e7 solid;
 }
 
 #Photo{
@@ -92,19 +93,65 @@ section{
     background-color: #fffffe;
 }
 
-#Información-personal a{
-    background-color: #fffffe;
+#linkedin{
+    margin-top: 10px;
+    background-color: #272343;
     padding-top: 10px;
     justify-self: center;
+    border: 3px #272343 solid;
+    padding: 0.5em 2em;
+    border-radius: 100px;
+    color:#fffffe;
 }
 
-#Contacto{
+
+
+
+#map{
+    border: 3px #272343 solid;
+}
+
+
+#SobreMi{
     grid-column-start: 4;
     grid-column-end: 7; 
     grid-row-start: 1;
     grid-row-end: 1;
     background-color: #fffffe;
-    
+    border: 10px #6ec5e7 solid;
+}
+
+#SobreMi h2{
+    background-color: #fffffe;
+    text-align: center;
+}
+
+#SobreMi p{
+    background-color: #fffffe;
+    text-align: justify;
+    margin: 5px ;
+}
+
+#SobreMi ul{
+    background-color: #fffffe;
+    margin: 5px ;
+}
+
+#SobreMi li{
+    background-color: #fffffe;
+    margin: 5px ;
+}
+
+
+
+
+#Contacto{
+    grid-column-start: 1;
+    grid-column-end: 7; 
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-color: #fffffe;
+
 }
 
 #Contacto h2{
@@ -114,6 +161,7 @@ section{
 
 #Contacto p{
     background-color: #fffffe;
+    text-align: center;
 }
 
 #Contacto label{
@@ -154,6 +202,8 @@ section{
     grid-column-start: 1;
     grid-column-end:2;
     border: 3px #272343 solid;
+    padding: 0.5em 2em;
+    border-radius: 100px;
 }
 
 #LLP h3{
@@ -168,7 +218,8 @@ section{
     grid-column-start: 2;
     grid-column-end:3;
     border: 3px #272343 solid;
-    border-radius: 5px;
+    padding: 0.5em 2em;
+    border-radius: 100px;
 }
 
 
@@ -181,7 +232,8 @@ section{
     grid-column-start: 3;
     grid-column-end:4;
     border: 3px #272343 solid;
-    border-radius: 5px;
+    padding: 0.5em 2em;
+    border-radius: 100px;
 }
 
 #HD li{
@@ -192,7 +244,8 @@ section{
     grid-column-start: 4;
     grid-column-end:5;
     border: 3px #272343 solid;
-    border-radius: 5px;
+    padding: 0.5em 2em;
+    border-radius: 100px;
 }
 
 #OT li{
@@ -221,6 +274,11 @@ section{
     margin-top: 15px;
 }
 
+
+#Proyectos-Realizados figcaption{
+    font-weight: bold;
+}
+
 #container{
     text-align: center;
     background-color: #fffffe;
@@ -232,7 +290,8 @@ section{
 }
 
 #final{
-    padding-top: 2.5%;
+    margin-top: 4%;
+    padding-top: 5%;
     text-align: center;
     display: grid;
     justify-content: center;
